@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                height: 10rem;
+                width: 20rem;
+            } 
+            body {
+                background-image: url(./logo.svg); 
+                background-repeat: no-repeat;  
+                background-position: center center;
+                background-size: contain;
+                margin: 0;
+                padding: 0;
+                height: 10rem;
+                width: 20rem;
+                }
+            .background {
+                background-image: url(./logo.svg);
+                background-repeat: no-repeat;  
+                background-size: contain;
+                width: 50rem; 
+                height: 10rem;
+                }
+            .text-font-first {
+                font-size: 1.5rem; 
+                position: absolute;
+                left: 1rem ;
+                top : 2rem;
+                color:black; 
+            }
+            .text-font-second {
+                font-size: 1.5rem; 
+                left: 1rem ;
+                top : 4rem;
+                color:blue ; 
+                position: absolute;
+            }
+            .image-first {
+                position :absolute;
+                content: url(./testImag.png); 
+                left: 10rem ;
+                top : 1rem;
+                width: 10rem;
+                height: 5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="text-font-first">$상품명$</div> 
+            <div class="text-font-second">$상승률$</div> 
+            <img class="image-first" >
+        </div>
+    </body>
+</html>
