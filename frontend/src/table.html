@@ -4,8 +4,10 @@
             html {
                 height: 100px;
                 width: 200px;
+                background-color: #e4e9d6;
+                background-position: center center;
             } 
-            body {
+            /* body {
                 background-image: url(./logo.svg); 
                 background-repeat: no-repeat;  
                 background-position: center center;
@@ -14,15 +16,15 @@
                 padding: 0;
                 height: 100px;
                 width: 200px;
-                }
-            .background {
+                } */
+            /* .background {
                 background-image: url(./logo.svg);
                 background-repeat: no-repeat;  
-                /* background-position: center center; */
+                 background-position: center center; 
                 background-size: contain;
                 height: 100px;
                 width: 200px;
-                }
+                } */
             .text-font-first {
                 font-size: 1.5rem; 
                 color:black; 
@@ -36,25 +38,28 @@
             .divStyle {
                 height: 100px;
                 width: 200px;
-                align-content: center;
+                text-align: center;
              }
-             .tableStyle {
-                margin: auto ;
-                border: 1px solid;
+             table {
+                margin-left: auto ;
+                margin-right: auto;
              }
         </style>
     </head>
-    <body>
+    <body style="left: 20px; top:20px;">
         <div class="divStyle">
+            <br>
+            <br> 
+            
         <table class="tableStyle">
             <tr>
                 <td>
-                    <div class="text-font-first">$상품명$</div> 
+                    <div class="text-font-first">$상품명1$</div> 
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="text-font-second">$상승률$</div> 
+                    <div class="text-font-second">$상승률1$</div> 
                 </td>
             </tr>
         </table>

@@ -76,7 +76,7 @@ function App() {
     }
 
     debugger;
-    if(htmlTag != null && htmlTag != ''){
+    if(htmlTagTxt != null && htmlTagTxt != ''){
       axios.post(urlString , param)
       // .then(response => response.json())
       .then(response => {
