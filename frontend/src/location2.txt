@@ -5,7 +5,7 @@
             html {
                 height: 100px;
                 width: 400px;
-                background-color: rgb(104, 84, 117);
+                background-color: white;
             } 
             body {
                 background-repeat: no-repeat;  
@@ -30,13 +30,10 @@
                 color:$color$; 
                 position: absolute;
             }
-            .image-first {
+           .image-first {
                 position :absolute;
-                content: url(./testImag.png); 
-                left: 10rem ;
-                top : 1rem;
-                width: 10rem;
-                height: 5rem;
+                left: 50px ;
+                top : 10px;
             }
         </style>
     </head>
@@ -44,6 +41,7 @@
         <div >
             <div class="text-font-first">$상품명1$</div> 
             <div class="text-font-second">$상승률1$</div> 
+            <div class="image-first"> <img src="https://cdnimage.dailian.co.kr/news/202312/news_1703829314_1312169_m_1.jpeg" width="80" height="80"></div>
         </div>
     </body>
 </html>
